@@ -1,0 +1,100 @@
+province_ager_publicus_svalue = {
+	# Scope: province
+	# Function:
+	value = 1
+	if = {
+		limit = {
+			has_province_rank = settlement
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			OR = {
+				has_building = basic_settlement_infratructure_building
+				has_building = latifundia_building
+			}
+		}
+		add = 1
+	}
+	add = ager_publicus_civilization_bonus
+
+	if = {
+		limit = {
+			has_building = hill_fort
+		}
+		subtract = 2
+	}
+	if = {
+		limit = {
+			exists = holding_owner
+		}
+		subtract = 0.5
+	}
+
+	every_pops_in_province = {
+		if = {
+			limit = {
+				pop_type = tribesmen
+			}
+			subtract = 0.1
+		}
+		else = {
+			subtract = 0.025
+		}
+	}
+	subtract = ager_publicus_foreign_pops_malus
+
+	min = 0
+}
+
+ager_publicus_civilization_bonus = {
+	# Scope: province
+	# Function: Convert 1 civilization to 0.02
+	value = civilization_value
+	multiply = 0.02
+}
+
+ager_publicus_foreign_pops_malus = {
+	# Scope: province
+	# Function: Get 0.1 for every foreign pop in a province
+	value = num_foreign_culture
+	multiply = 0.1
+}
+
+ager_publicus_country_svalue = {
+	value = 0
+	every_owned_province = {
+		add = province_ager_publicus_svalue
+	}
+}
+
+veteran_growth_amount = {
+	# Scope: country
+	# Function: Set the number of veterans to spawn every year
+	value = manpower
+	divide = 10000 # 0.1 per 1,000
+	add = veteran_cohorts_bonus
+}
+
+veteran_cohorts_bonus = {
+	# Scope: country
+	# Function: Get 0.1 per cohort
+	value = num_of_cohorts
+	multiply = 0.1
+}
+
+veteran_10_percent_svalue = {
+	# Scope: country
+	# Get 10% of the current veterans variable
+	if = {
+		limit = {
+			has_variable = veteran_count
+		}
+		value = var:veteran_count
+		multiply = 0.1
+	}
+	else = {
+		value = 0
+	}
+}

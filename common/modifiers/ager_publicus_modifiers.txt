@@ -1,0 +1,700 @@
+positive_APR_1 = {
+    army_maintenance_cost = -0.0075
+    land_morale_modifier = 0.005
+    loyalty_gain_chance_modifier = -0.0075
+    global_citizen_happyness = 0.005
+}
+positive_APR_2 = {
+    army_maintenance_cost = -0.0175
+    land_morale_modifier = 0.015
+    loyalty_gain_chance_modifier = -0.0175
+    global_citizen_happyness = 0.015
+}
+positive_APR_3 = {
+    army_maintenance_cost = -0.0275
+    land_morale_modifier = 0.025
+    loyalty_gain_chance_modifier = -0.0275
+    global_citizen_happyness = 0.025
+}
+positive_APR_4 = {
+    army_maintenance_cost = -0.0375
+    land_morale_modifier = 0.035
+    loyalty_gain_chance_modifier = -0.0375
+    global_citizen_happyness = 0.035
+}
+positive_APR_5 = {
+    army_maintenance_cost = -0.0475
+    land_morale_modifier = 0.045
+    loyalty_gain_chance_modifier = -0.0475
+    global_citizen_happyness = 0.045
+}
+positive_APR_6 = {
+    army_maintenance_cost = -0.0575
+    land_morale_modifier = 0.055
+    loyalty_gain_chance_modifier = -0.0575
+    global_citizen_happyness = 0.055
+}
+positive_APR_7 = {
+    army_maintenance_cost = -0.0675
+    land_morale_modifier = 0.065
+    loyalty_gain_chance_modifier = -0.0675
+    global_citizen_happyness = 0.065
+}
+positive_APR_8 = {
+    army_maintenance_cost = -0.0775
+    land_morale_modifier = 0.075
+    loyalty_gain_chance_modifier = -0.0775
+    global_citizen_happyness = 0.075
+}
+positive_APR_9 = {
+    army_maintenance_cost = -0.0875
+    land_morale_modifier = 0.085
+    loyalty_gain_chance_modifier = -0.0875
+    global_citizen_happyness = 0.085
+}
+positive_APR_10 = {
+    army_maintenance_cost = -0.0975
+    land_morale_modifier = 0.095
+    loyalty_gain_chance_modifier = -0.0975
+    global_citizen_happyness = 0.095
+}
+positive_APR_11 = {
+    army_maintenance_cost = -0.1075
+    land_morale_modifier = 0.105
+    loyalty_gain_chance_modifier = -0.1075
+    global_citizen_happyness = 0.105
+}
+positive_APR_12 = {
+    army_maintenance_cost = -0.1175
+    land_morale_modifier = 0.115
+    loyalty_gain_chance_modifier = -0.1175
+    global_citizen_happyness = 0.115
+}
+positive_APR_13 = {
+    army_maintenance_cost = -0.1275
+    land_morale_modifier = 0.125
+    loyalty_gain_chance_modifier = -0.1275
+    global_citizen_happyness = 0.125
+}
+positive_APR_14 = {
+    army_maintenance_cost = -0.1375
+    land_morale_modifier = 0.135
+    loyalty_gain_chance_modifier = -0.1375
+    global_citizen_happyness = 0.135
+}
+positive_APR_15 = {
+    army_maintenance_cost = -0.1475
+    land_morale_modifier = 0.145
+    loyalty_gain_chance_modifier = -0.1475
+    global_citizen_happyness = 0.145
+}
+positive_APR_16 = {
+    army_maintenance_cost = -0.1575
+    land_morale_modifier = 0.155
+    loyalty_gain_chance_modifier = -0.1575
+    global_citizen_happyness = 0.155
+}
+positive_APR_17 = {
+    army_maintenance_cost = -0.1675
+    land_morale_modifier = 0.165
+    loyalty_gain_chance_modifier = -0.1675
+    global_citizen_happyness = 0.165
+}
+positive_APR_18 = {
+    army_maintenance_cost = -0.1775
+    land_morale_modifier = 0.175
+    loyalty_gain_chance_modifier = -0.1775
+    global_citizen_happyness = 0.175
+}
+positive_APR_19 = {
+    army_maintenance_cost = -0.1875
+    land_morale_modifier = 0.185
+    loyalty_gain_chance_modifier = -0.1875
+    global_citizen_happyness = 0.185
+}
+positive_APR_20 = {
+    army_maintenance_cost = -0.1975
+    land_morale_modifier = 0.195
+    loyalty_gain_chance_modifier = -0.1975
+    global_citizen_happyness = 0.195
+}
+positive_APR_21 = {
+    army_maintenance_cost = -0.2075
+    land_morale_modifier = 0.205
+    loyalty_gain_chance_modifier = -0.2075
+    global_citizen_happyness = 0.205
+}
+positive_APR_22 = {
+    army_maintenance_cost = -0.2175
+    land_morale_modifier = 0.215
+    loyalty_gain_chance_modifier = -0.2175
+    global_citizen_happyness = 0.215
+}
+positive_APR_23 = {
+    army_maintenance_cost = -0.2275
+    land_morale_modifier = 0.225
+    loyalty_gain_chance_modifier = -0.2275
+    global_citizen_happyness = 0.225
+}
+positive_APR_24 = {
+    army_maintenance_cost = -0.2375
+    land_morale_modifier = 0.235
+    loyalty_gain_chance_modifier = -0.2375
+    global_citizen_happyness = 0.235
+}
+positive_APR_25 = {
+    army_maintenance_cost = -0.2475
+    land_morale_modifier = 0.245
+    loyalty_gain_chance_modifier = -0.2475
+    global_citizen_happyness = 0.245
+}
+positive_APR_26 = {
+    army_maintenance_cost = -0.2575
+    land_morale_modifier = 0.255
+    loyalty_gain_chance_modifier = -0.2575
+    global_citizen_happyness = 0.255
+}
+positive_APR_27 = {
+    army_maintenance_cost = -0.2675
+    land_morale_modifier = 0.265
+    loyalty_gain_chance_modifier = -0.2675
+    global_citizen_happyness = 0.265
+}
+positive_APR_28 = {
+    army_maintenance_cost = -0.2775
+    land_morale_modifier = 0.275
+    loyalty_gain_chance_modifier = -0.2775
+    global_citizen_happyness = 0.275
+}
+positive_APR_29 = {
+    army_maintenance_cost = -0.2875
+    land_morale_modifier = 0.285
+    loyalty_gain_chance_modifier = -0.2875
+    global_citizen_happyness = 0.285
+}
+positive_APR_30 = {
+    army_maintenance_cost = -0.2975
+    land_morale_modifier = 0.295
+    loyalty_gain_chance_modifier = -0.2975
+    global_citizen_happyness = 0.295
+}
+positive_APR_31 = {
+    army_maintenance_cost = -0.3075
+    land_morale_modifier = 0.305
+    loyalty_gain_chance_modifier = -0.3075
+    global_citizen_happyness = 0.305
+}
+positive_APR_32 = {
+    army_maintenance_cost = -0.3175
+    land_morale_modifier = 0.315
+    loyalty_gain_chance_modifier = -0.3175
+    global_citizen_happyness = 0.315
+}
+positive_APR_33 = {
+    army_maintenance_cost = -0.3275
+    land_morale_modifier = 0.325
+    loyalty_gain_chance_modifier = -0.3275
+    global_citizen_happyness = 0.325
+}
+positive_APR_34 = {
+    army_maintenance_cost = -0.3375
+    land_morale_modifier = 0.335
+    loyalty_gain_chance_modifier = -0.3375
+    global_citizen_happyness = 0.335
+}
+positive_APR_35 = {
+    army_maintenance_cost = -0.3475
+    land_morale_modifier = 0.345
+    loyalty_gain_chance_modifier = -0.3475
+    global_citizen_happyness = 0.345
+}
+positive_APR_36 = {
+    army_maintenance_cost = -0.3575
+    land_morale_modifier = 0.355
+    loyalty_gain_chance_modifier = -0.3575
+    global_citizen_happyness = 0.355
+}
+positive_APR_37 = {
+    army_maintenance_cost = -0.3675
+    land_morale_modifier = 0.365
+    loyalty_gain_chance_modifier = -0.3675
+    global_citizen_happyness = 0.365
+}
+positive_APR_38 = {
+    army_maintenance_cost = -0.3775
+    land_morale_modifier = 0.375
+    loyalty_gain_chance_modifier = -0.3775
+    global_citizen_happyness = 0.375
+}
+positive_APR_39 = {
+    army_maintenance_cost = -0.3875
+    land_morale_modifier = 0.385
+    loyalty_gain_chance_modifier = -0.3875
+    global_citizen_happyness = 0.385
+}
+positive_APR_40 = {
+    army_maintenance_cost = -0.3975
+    land_morale_modifier = 0.395
+    loyalty_gain_chance_modifier = -0.3975
+    global_citizen_happyness = 0.395
+}
+positive_APR_41 = {
+    army_maintenance_cost = -0.4075
+    land_morale_modifier = 0.405
+    loyalty_gain_chance_modifier = -0.4075
+    global_citizen_happyness = 0.405
+}
+positive_APR_42 = {
+    army_maintenance_cost = -0.4175
+    land_morale_modifier = 0.415
+    loyalty_gain_chance_modifier = -0.4175
+    global_citizen_happyness = 0.415
+}
+positive_APR_43 = {
+    army_maintenance_cost = -0.4275
+    land_morale_modifier = 0.425
+    loyalty_gain_chance_modifier = -0.4275
+    global_citizen_happyness = 0.425
+}
+positive_APR_44 = {
+    army_maintenance_cost = -0.4375
+    land_morale_modifier = 0.435
+    loyalty_gain_chance_modifier = -0.4375
+    global_citizen_happyness = 0.435
+}
+positive_APR_45 = {
+    army_maintenance_cost = -0.4475
+    land_morale_modifier = 0.445
+    loyalty_gain_chance_modifier = -0.4475
+    global_citizen_happyness = 0.445
+}
+positive_APR_46 = {
+    army_maintenance_cost = -0.4575
+    land_morale_modifier = 0.455
+    loyalty_gain_chance_modifier = -0.4575
+    global_citizen_happyness = 0.455
+}
+positive_APR_47 = {
+    army_maintenance_cost = -0.4675
+    land_morale_modifier = 0.465
+    loyalty_gain_chance_modifier = -0.4675
+    global_citizen_happyness = 0.465
+}
+positive_APR_48 = {
+    army_maintenance_cost = -0.4775
+    land_morale_modifier = 0.475
+    loyalty_gain_chance_modifier = -0.4775
+    global_citizen_happyness = 0.475
+}
+positive_APR_49 = {
+    army_maintenance_cost = -0.4875
+    land_morale_modifier = 0.485
+    loyalty_gain_chance_modifier = -0.4875
+    global_citizen_happyness = 0.485
+}
+positive_APR_50 = {
+    army_maintenance_cost = -0.4975
+    land_morale_modifier = 0.495
+    loyalty_gain_chance_modifier = -0.4975
+    global_citizen_happyness = 0.495
+}
+negative_APR_1 = {
+    army_maintenance_cost = 0.01
+    land_morale_modifier = -0.005
+    loyalty_gain_chance_modifier = 0.01
+    global_citizen_happyness = -0.005
+    civil_war_threshold = -0.0012
+    stability_monthly_change = -0.0012
+}
+negative_APR_2 = {
+    army_maintenance_cost = 0.02
+    land_morale_modifier = -0.015
+    loyalty_gain_chance_modifier = 0.02
+    global_citizen_happyness = -0.015
+    civil_war_threshold = -0.0024
+    stability_monthly_change = -0.0024
+}
+negative_APR_3 = {
+    army_maintenance_cost = 0.03
+    land_morale_modifier = -0.025
+    loyalty_gain_chance_modifier = 0.03
+    global_citizen_happyness = -0.025
+    civil_war_threshold = -0.0036
+    stability_monthly_change = -0.0036
+}
+negative_APR_4 = {
+    army_maintenance_cost = 0.04
+    land_morale_modifier = -0.035
+    loyalty_gain_chance_modifier = 0.04
+    global_citizen_happyness = -0.035
+    civil_war_threshold = -0.0048
+    stability_monthly_change = -0.0048
+}
+negative_APR_5 = {
+    army_maintenance_cost = 0.05
+    land_morale_modifier = -0.045
+    loyalty_gain_chance_modifier = 0.05
+    global_citizen_happyness = -0.045
+    civil_war_threshold = -0.006
+    stability_monthly_change = -0.006
+}
+negative_APR_6 = {
+    army_maintenance_cost = 0.06
+    land_morale_modifier = -0.055
+    loyalty_gain_chance_modifier = 0.06
+    global_citizen_happyness = -0.055
+    civil_war_threshold = -0.0072
+    stability_monthly_change = -0.0072
+}
+negative_APR_7 = {
+    army_maintenance_cost = 0.07
+    land_morale_modifier = -0.065
+    loyalty_gain_chance_modifier = 0.07
+    global_citizen_happyness = -0.065
+    civil_war_threshold = -0.0084
+    stability_monthly_change = -0.0084
+}
+negative_APR_8 = {
+    army_maintenance_cost = 0.08
+    land_morale_modifier = -0.075
+    loyalty_gain_chance_modifier = 0.08
+    global_citizen_happyness = -0.075
+    civil_war_threshold = -0.0096
+    stability_monthly_change = -0.0096
+}
+negative_APR_9 = {
+    army_maintenance_cost = 0.09
+    land_morale_modifier = -0.085
+    loyalty_gain_chance_modifier = 0.09
+    global_citizen_happyness = -0.085
+    civil_war_threshold = -0.0108
+    stability_monthly_change = -0.0108
+}
+negative_APR_10 = {
+    army_maintenance_cost = 0.1
+    land_morale_modifier = -0.095
+    loyalty_gain_chance_modifier = 0.1
+    global_citizen_happyness = -0.095
+    civil_war_threshold = -0.012
+    stability_monthly_change = -0.012
+}
+negative_APR_11 = {
+    army_maintenance_cost = 0.11
+    land_morale_modifier = -0.105
+    loyalty_gain_chance_modifier = 0.11
+    global_citizen_happyness = -0.105
+    civil_war_threshold = -0.0132
+    stability_monthly_change = -0.0132
+}
+negative_APR_12 = {
+    army_maintenance_cost = 0.12
+    land_morale_modifier = -0.115
+    loyalty_gain_chance_modifier = 0.12
+    global_citizen_happyness = -0.115
+    civil_war_threshold = -0.0144
+    stability_monthly_change = -0.0144
+}
+negative_APR_13 = {
+    army_maintenance_cost = 0.13
+    land_morale_modifier = -0.125
+    loyalty_gain_chance_modifier = 0.13
+    global_citizen_happyness = -0.125
+    civil_war_threshold = -0.0156
+    stability_monthly_change = -0.0156
+}
+negative_APR_14 = {
+    army_maintenance_cost = 0.14
+    land_morale_modifier = -0.135
+    loyalty_gain_chance_modifier = 0.14
+    global_citizen_happyness = -0.135
+    civil_war_threshold = -0.0168
+    stability_monthly_change = -0.0168
+}
+negative_APR_15 = {
+    army_maintenance_cost = 0.15
+    land_morale_modifier = -0.145
+    loyalty_gain_chance_modifier = 0.15
+    global_citizen_happyness = -0.145
+    civil_war_threshold = -0.018
+    stability_monthly_change = -0.018
+}
+negative_APR_16 = {
+    army_maintenance_cost = 0.16
+    land_morale_modifier = -0.155
+    loyalty_gain_chance_modifier = 0.16
+    global_citizen_happyness = -0.155
+    civil_war_threshold = -0.0192
+    stability_monthly_change = -0.0192
+}
+negative_APR_17 = {
+    army_maintenance_cost = 0.17
+    land_morale_modifier = -0.165
+    loyalty_gain_chance_modifier = 0.17
+    global_citizen_happyness = -0.165
+    civil_war_threshold = -0.0204
+    stability_monthly_change = -0.0204
+}
+negative_APR_18 = {
+    army_maintenance_cost = 0.18
+    land_morale_modifier = -0.175
+    loyalty_gain_chance_modifier = 0.18
+    global_citizen_happyness = -0.175
+    civil_war_threshold = -0.0216
+    stability_monthly_change = -0.0216
+}
+negative_APR_19 = {
+    army_maintenance_cost = 0.19
+    land_morale_modifier = -0.185
+    loyalty_gain_chance_modifier = 0.19
+    global_citizen_happyness = -0.185
+    civil_war_threshold = -0.0228
+    stability_monthly_change = -0.0228
+}
+negative_APR_20 = {
+    army_maintenance_cost = 0.2
+    land_morale_modifier = -0.195
+    loyalty_gain_chance_modifier = 0.2
+    global_citizen_happyness = -0.195
+    civil_war_threshold = -0.024
+    stability_monthly_change = -0.024
+}
+negative_APR_21 = {
+    army_maintenance_cost = 0.21
+    land_morale_modifier = -0.205
+    loyalty_gain_chance_modifier = 0.21
+    global_citizen_happyness = -0.205
+    civil_war_threshold = -0.0252
+    stability_monthly_change = -0.0252
+}
+negative_APR_22 = {
+    army_maintenance_cost = 0.22
+    land_morale_modifier = -0.215
+    loyalty_gain_chance_modifier = 0.22
+    global_citizen_happyness = -0.215
+    civil_war_threshold = -0.0264
+    stability_monthly_change = -0.0264
+}
+negative_APR_23 = {
+    army_maintenance_cost = 0.23
+    land_morale_modifier = -0.225
+    loyalty_gain_chance_modifier = 0.23
+    global_citizen_happyness = -0.225
+    civil_war_threshold = -0.0276
+    stability_monthly_change = -0.0276
+}
+negative_APR_24 = {
+    army_maintenance_cost = 0.24
+    land_morale_modifier = -0.235
+    loyalty_gain_chance_modifier = 0.24
+    global_citizen_happyness = -0.235
+    civil_war_threshold = -0.0288
+    stability_monthly_change = -0.0288
+}
+negative_APR_25 = {
+    army_maintenance_cost = 0.25
+    land_morale_modifier = -0.245
+    loyalty_gain_chance_modifier = 0.25
+    global_citizen_happyness = -0.245
+    civil_war_threshold = -0.03
+    stability_monthly_change = -0.03
+}
+negative_APR_26 = {
+    army_maintenance_cost = 0.26
+    land_morale_modifier = -0.255
+    loyalty_gain_chance_modifier = 0.26
+    global_citizen_happyness = -0.255
+    civil_war_threshold = -0.0312
+    stability_monthly_change = -0.0312
+}
+negative_APR_27 = {
+    army_maintenance_cost = 0.27
+    land_morale_modifier = -0.265
+    loyalty_gain_chance_modifier = 0.27
+    global_citizen_happyness = -0.265
+    civil_war_threshold = -0.0324
+    stability_monthly_change = -0.0324
+}
+negative_APR_28 = {
+    army_maintenance_cost = 0.28
+    land_morale_modifier = -0.275
+    loyalty_gain_chance_modifier = 0.28
+    global_citizen_happyness = -0.275
+    civil_war_threshold = -0.0336
+    stability_monthly_change = -0.0336
+}
+negative_APR_29 = {
+    army_maintenance_cost = 0.29
+    land_morale_modifier = -0.285
+    loyalty_gain_chance_modifier = 0.29
+    global_citizen_happyness = -0.285
+    civil_war_threshold = -0.0348
+    stability_monthly_change = -0.0348
+}
+negative_APR_30 = {
+    army_maintenance_cost = 0.3
+    land_morale_modifier = -0.295
+    loyalty_gain_chance_modifier = 0.3
+    global_citizen_happyness = -0.295
+    civil_war_threshold = -0.036
+    stability_monthly_change = -0.036
+}
+negative_APR_31 = {
+    army_maintenance_cost = 0.31
+    land_morale_modifier = -0.305
+    loyalty_gain_chance_modifier = 0.31
+    global_citizen_happyness = -0.305
+    civil_war_threshold = -0.0372
+    stability_monthly_change = -0.0372
+}
+negative_APR_32 = {
+    army_maintenance_cost = 0.32
+    land_morale_modifier = -0.315
+    loyalty_gain_chance_modifier = 0.32
+    global_citizen_happyness = -0.315
+    civil_war_threshold = -0.0384
+    stability_monthly_change = -0.0384
+}
+negative_APR_33 = {
+    army_maintenance_cost = 0.33
+    land_morale_modifier = -0.325
+    loyalty_gain_chance_modifier = 0.33
+    global_citizen_happyness = -0.325
+    civil_war_threshold = -0.0396
+    stability_monthly_change = -0.0396
+}
+negative_APR_34 = {
+    army_maintenance_cost = 0.34
+    land_morale_modifier = -0.335
+    loyalty_gain_chance_modifier = 0.34
+    global_citizen_happyness = -0.335
+    civil_war_threshold = -0.0408
+    stability_monthly_change = -0.0408
+}
+negative_APR_35 = {
+    army_maintenance_cost = 0.35
+    land_morale_modifier = -0.345
+    loyalty_gain_chance_modifier = 0.35
+    global_citizen_happyness = -0.345
+    civil_war_threshold = -0.042
+    stability_monthly_change = -0.042
+}
+negative_APR_36 = {
+    army_maintenance_cost = 0.36
+    land_morale_modifier = -0.355
+    loyalty_gain_chance_modifier = 0.36
+    global_citizen_happyness = -0.355
+    civil_war_threshold = -0.0432
+    stability_monthly_change = -0.0432
+}
+negative_APR_37 = {
+    army_maintenance_cost = 0.37
+    land_morale_modifier = -0.365
+    loyalty_gain_chance_modifier = 0.37
+    global_citizen_happyness = -0.365
+    civil_war_threshold = -0.0444
+    stability_monthly_change = -0.0444
+}
+negative_APR_38 = {
+    army_maintenance_cost = 0.38
+    land_morale_modifier = -0.375
+    loyalty_gain_chance_modifier = 0.38
+    global_citizen_happyness = -0.375
+    civil_war_threshold = -0.0456
+    stability_monthly_change = -0.0456
+}
+negative_APR_39 = {
+    army_maintenance_cost = 0.39
+    land_morale_modifier = -0.385
+    loyalty_gain_chance_modifier = 0.39
+    global_citizen_happyness = -0.385
+    civil_war_threshold = -0.0468
+    stability_monthly_change = -0.0468
+}
+negative_APR_40 = {
+    army_maintenance_cost = 0.4
+    land_morale_modifier = -0.395
+    loyalty_gain_chance_modifier = 0.4
+    global_citizen_happyness = -0.395
+    civil_war_threshold = -0.048
+    stability_monthly_change = -0.048
+}
+negative_APR_41 = {
+    army_maintenance_cost = 0.41
+    land_morale_modifier = -0.405
+    loyalty_gain_chance_modifier = 0.41
+    global_citizen_happyness = -0.405
+    civil_war_threshold = -0.0492
+    stability_monthly_change = -0.0492
+}
+negative_APR_42 = {
+    army_maintenance_cost = 0.42
+    land_morale_modifier = -0.415
+    loyalty_gain_chance_modifier = 0.42
+    global_citizen_happyness = -0.415
+    civil_war_threshold = -0.0504
+    stability_monthly_change = -0.0504
+}
+negative_APR_43 = {
+    army_maintenance_cost = 0.43
+    land_morale_modifier = -0.425
+    loyalty_gain_chance_modifier = 0.43
+    global_citizen_happyness = -0.425
+    civil_war_threshold = -0.0516
+    stability_monthly_change = -0.0516
+}
+negative_APR_44 = {
+    army_maintenance_cost = 0.44
+    land_morale_modifier = -0.435
+    loyalty_gain_chance_modifier = 0.44
+    global_citizen_happyness = -0.435
+    civil_war_threshold = -0.0528
+    stability_monthly_change = -0.0528
+}
+negative_APR_45 = {
+    army_maintenance_cost = 0.45
+    land_morale_modifier = -0.445
+    loyalty_gain_chance_modifier = 0.45
+    global_citizen_happyness = -0.445
+    civil_war_threshold = -0.054
+    stability_monthly_change = -0.054
+}
+negative_APR_46 = {
+    army_maintenance_cost = 0.46
+    land_morale_modifier = -0.455
+    loyalty_gain_chance_modifier = 0.46
+    global_citizen_happyness = -0.455
+    civil_war_threshold = -0.0552
+    stability_monthly_change = -0.0552
+}
+negative_APR_47 = {
+    army_maintenance_cost = 0.47
+    land_morale_modifier = -0.465
+    loyalty_gain_chance_modifier = 0.47
+    global_citizen_happyness = -0.465
+    civil_war_threshold = -0.0564
+    stability_monthly_change = -0.0564
+}
+negative_APR_48 = {
+    army_maintenance_cost = 0.48
+    land_morale_modifier = -0.475
+    loyalty_gain_chance_modifier = 0.48
+    global_citizen_happyness = -0.475
+    civil_war_threshold = -0.0576
+    stability_monthly_change = -0.0576
+}
+negative_APR_49 = {
+    army_maintenance_cost = 0.49
+    land_morale_modifier = -0.485
+    loyalty_gain_chance_modifier = 0.49
+    global_citizen_happyness = -0.485
+    civil_war_threshold = -0.0588
+    stability_monthly_change = -0.0588
+}
+negative_APR_50 = {
+    army_maintenance_cost = 0.5
+    land_morale_modifier = -0.495
+    loyalty_gain_chance_modifier = 0.5
+    global_citizen_happyness = -0.495
+    civil_war_threshold = -0.06
+    stability_monthly_change = -0.06
+}
