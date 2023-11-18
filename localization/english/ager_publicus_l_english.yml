@@ -1,0 +1,7 @@
+﻿l_english:
+ ###Roman Republican Laws
+ ager_publicus_laws:1 "Ager publicus"
+ ager_publicus_disabled:1 "State owned"
+ ager_publicus_disabled_desc:2 "Nothing to see here"
+ ager_publicus_enabled:1 "Veteran land grants"
+ ager_publicus_enabled_desc:2 "Ager publicus available:  [GovernmentView.GetPlayer.MakeScope.GetVariable('ager_publicus')] \n\n Veterans in [GovernmentView.GetPlayer.GetCountry.GetName]: [GovernmentView.GetPlayer.MakeScope.GetVariable('veteran_count')]\n [GuiScope.SetRoot(GovernmentView.GetPlayer.MakeScope).ScriptValue('veteran_growth_svalue')] new veterans are expected to retire this year, and the state expects to re-inherit [GuiScope.SetRoot(GovernmentView.GetPlayer.MakeScope).ScriptValue('veteran_10_percent_svalue')] estates"

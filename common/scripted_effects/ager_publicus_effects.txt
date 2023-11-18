@@ -1,0 +1,1030 @@
+ager_publicus_update_variables = {
+	# Scope: country
+	set_variable = {
+		name = ager_publicus
+		value = ager_publicus_country_svalue
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_variable = veteran_count
+			}
+		}
+		set_variable = {
+			name = veteran_count
+			value = veteran_growth_svalue
+		}
+	}
+
+	change_variable = {
+		name = veteran_count
+		add = veteran_growth_svalue
+	}
+	change_variable = {
+		name = veteran_count
+		subtract = veteran_10_percent_svalue
+	}
+}
+
+ager_publicus_apply_modifier = {
+	# Scope: country
+	# Function: apply the appropriate modifier
+	if = {
+		limit = {
+			APR_svalue > 1
+			APR_svalue < 2
+		}
+		add_country_modifier = {
+			name = positive_APR_1
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 2
+			APR_svalue < 3
+		}
+		add_country_modifier = {
+			name = positive_APR_2
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 3
+			APR_svalue < 4
+		}
+		add_country_modifier = {
+			name = positive_APR_3
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 4
+			APR_svalue < 5
+		}
+		add_country_modifier = {
+			name = positive_APR_4
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 5
+			APR_svalue < 6
+		}
+		add_country_modifier = {
+			name = positive_APR_5
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 6
+			APR_svalue < 7
+		}
+		add_country_modifier = {
+			name = positive_APR_6
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 7
+			APR_svalue < 8
+		}
+		add_country_modifier = {
+			name = positive_APR_7
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 8
+			APR_svalue < 9
+		}
+		add_country_modifier = {
+			name = positive_APR_8
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 9
+			APR_svalue < 10
+		}
+		add_country_modifier = {
+			name = positive_APR_9
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 10
+			APR_svalue < 11
+		}
+		add_country_modifier = {
+			name = positive_APR_10
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 11
+			APR_svalue < 12
+		}
+		add_country_modifier = {
+			name = positive_APR_11
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 12
+			APR_svalue < 13
+		}
+		add_country_modifier = {
+			name = positive_APR_12
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 13
+			APR_svalue < 14
+		}
+		add_country_modifier = {
+			name = positive_APR_13
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 14
+			APR_svalue < 15
+		}
+		add_country_modifier = {
+			name = positive_APR_14
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 15
+			APR_svalue < 16
+		}
+		add_country_modifier = {
+			name = positive_APR_15
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 16
+			APR_svalue < 17
+		}
+		add_country_modifier = {
+			name = positive_APR_16
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 17
+			APR_svalue < 18
+		}
+		add_country_modifier = {
+			name = positive_APR_17
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 18
+			APR_svalue < 19
+		}
+		add_country_modifier = {
+			name = positive_APR_18
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 19
+			APR_svalue < 20
+		}
+		add_country_modifier = {
+			name = positive_APR_19
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 20
+			APR_svalue < 21
+		}
+		add_country_modifier = {
+			name = positive_APR_20
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 21
+			APR_svalue < 22
+		}
+		add_country_modifier = {
+			name = positive_APR_21
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 22
+			APR_svalue < 23
+		}
+		add_country_modifier = {
+			name = positive_APR_22
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 23
+			APR_svalue < 24
+		}
+		add_country_modifier = {
+			name = positive_APR_23
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 24
+			APR_svalue < 25
+		}
+		add_country_modifier = {
+			name = positive_APR_24
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 25
+			APR_svalue < 26
+		}
+		add_country_modifier = {
+			name = positive_APR_25
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 26
+			APR_svalue < 27
+		}
+		add_country_modifier = {
+			name = positive_APR_26
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 27
+			APR_svalue < 28
+		}
+		add_country_modifier = {
+			name = positive_APR_27
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 28
+			APR_svalue < 29
+		}
+		add_country_modifier = {
+			name = positive_APR_28
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 29
+			APR_svalue < 30
+		}
+		add_country_modifier = {
+			name = positive_APR_29
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 30
+			APR_svalue < 31
+		}
+		add_country_modifier = {
+			name = positive_APR_30
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 31
+			APR_svalue < 32
+		}
+		add_country_modifier = {
+			name = positive_APR_31
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 32
+			APR_svalue < 33
+		}
+		add_country_modifier = {
+			name = positive_APR_32
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 33
+			APR_svalue < 34
+		}
+		add_country_modifier = {
+			name = positive_APR_33
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 34
+			APR_svalue < 35
+		}
+		add_country_modifier = {
+			name = positive_APR_34
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 35
+			APR_svalue < 36
+		}
+		add_country_modifier = {
+			name = positive_APR_35
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 36
+			APR_svalue < 37
+		}
+		add_country_modifier = {
+			name = positive_APR_36
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 37
+			APR_svalue < 38
+		}
+		add_country_modifier = {
+			name = positive_APR_37
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 38
+			APR_svalue < 39
+		}
+		add_country_modifier = {
+			name = positive_APR_38
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 39
+			APR_svalue < 40
+		}
+		add_country_modifier = {
+			name = positive_APR_39
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 40
+			APR_svalue < 41
+		}
+		add_country_modifier = {
+			name = positive_APR_40
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 41
+			APR_svalue < 42
+		}
+		add_country_modifier = {
+			name = positive_APR_41
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 42
+			APR_svalue < 43
+		}
+		add_country_modifier = {
+			name = positive_APR_42
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 43
+			APR_svalue < 44
+		}
+		add_country_modifier = {
+			name = positive_APR_43
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 44
+			APR_svalue < 45
+		}
+		add_country_modifier = {
+			name = positive_APR_44
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 45
+			APR_svalue < 46
+		}
+		add_country_modifier = {
+			name = positive_APR_45
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 46
+			APR_svalue < 47
+		}
+		add_country_modifier = {
+			name = positive_APR_46
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 47
+			APR_svalue < 48
+		}
+		add_country_modifier = {
+			name = positive_APR_47
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 48
+			APR_svalue < 49
+		}
+		add_country_modifier = {
+			name = positive_APR_48
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 49
+			APR_svalue < 50
+		}
+		add_country_modifier = {
+			name = positive_APR_49
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue > 50
+		}
+		add_country_modifier = {
+			name = positive_APR_50
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -1
+			APR_svalue > -2
+		}
+		add_country_modifier = {
+			name = negative_APR_1
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -2
+			APR_svalue > -3
+		}
+		add_country_modifier = {
+			name = negative_APR_2
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -3
+			APR_svalue > -4
+		}
+		add_country_modifier = {
+			name = negative_APR_3
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -4
+			APR_svalue > -5
+		}
+		add_country_modifier = {
+			name = negative_APR_4
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -5
+			APR_svalue > -6
+		}
+		add_country_modifier = {
+			name = negative_APR_5
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -6
+			APR_svalue > -7
+		}
+		add_country_modifier = {
+			name = negative_APR_6
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -7
+			APR_svalue > -8
+		}
+		add_country_modifier = {
+			name = negative_APR_7
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -8
+			APR_svalue > -9
+		}
+		add_country_modifier = {
+			name = negative_APR_8
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -9
+			APR_svalue > -10
+		}
+		add_country_modifier = {
+			name = negative_APR_9
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -10
+			APR_svalue > -11
+		}
+		add_country_modifier = {
+			name = negative_APR_10
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -11
+			APR_svalue > -12
+		}
+		add_country_modifier = {
+			name = negative_APR_11
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -12
+			APR_svalue > -13
+		}
+		add_country_modifier = {
+			name = negative_APR_12
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -13
+			APR_svalue > -14
+		}
+		add_country_modifier = {
+			name = negative_APR_13
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -14
+			APR_svalue > -15
+		}
+		add_country_modifier = {
+			name = negative_APR_14
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -15
+			APR_svalue > -16
+		}
+		add_country_modifier = {
+			name = negative_APR_15
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -16
+			APR_svalue > -17
+		}
+		add_country_modifier = {
+			name = negative_APR_16
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -17
+			APR_svalue > -18
+		}
+		add_country_modifier = {
+			name = negative_APR_17
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -18
+			APR_svalue > -19
+		}
+		add_country_modifier = {
+			name = negative_APR_18
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -19
+			APR_svalue > -20
+		}
+		add_country_modifier = {
+			name = negative_APR_19
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -20
+			APR_svalue > -21
+		}
+		add_country_modifier = {
+			name = negative_APR_20
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -21
+			APR_svalue > -22
+		}
+		add_country_modifier = {
+			name = negative_APR_21
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -22
+			APR_svalue > -23
+		}
+		add_country_modifier = {
+			name = negative_APR_22
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -23
+			APR_svalue > -24
+		}
+		add_country_modifier = {
+			name = negative_APR_23
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -24
+			APR_svalue > -25
+		}
+		add_country_modifier = {
+			name = negative_APR_24
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -25
+			APR_svalue > -26
+		}
+		add_country_modifier = {
+			name = negative_APR_25
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -26
+			APR_svalue > -27
+		}
+		add_country_modifier = {
+			name = negative_APR_26
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -27
+			APR_svalue > -28
+		}
+		add_country_modifier = {
+			name = negative_APR_27
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -28
+			APR_svalue > -29
+		}
+		add_country_modifier = {
+			name = negative_APR_28
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -29
+			APR_svalue > -30
+		}
+		add_country_modifier = {
+			name = negative_APR_29
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -30
+			APR_svalue > -31
+		}
+		add_country_modifier = {
+			name = negative_APR_30
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -31
+			APR_svalue > -32
+		}
+		add_country_modifier = {
+			name = negative_APR_31
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -32
+			APR_svalue > -33
+		}
+		add_country_modifier = {
+			name = negative_APR_32
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -33
+			APR_svalue > -34
+		}
+		add_country_modifier = {
+			name = negative_APR_33
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -34
+			APR_svalue > -35
+		}
+		add_country_modifier = {
+			name = negative_APR_34
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -35
+			APR_svalue > -36
+		}
+		add_country_modifier = {
+			name = negative_APR_35
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -36
+			APR_svalue > -37
+		}
+		add_country_modifier = {
+			name = negative_APR_36
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -37
+			APR_svalue > -38
+		}
+		add_country_modifier = {
+			name = negative_APR_37
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -38
+			APR_svalue > -39
+		}
+		add_country_modifier = {
+			name = negative_APR_38
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -39
+			APR_svalue > -40
+		}
+		add_country_modifier = {
+			name = negative_APR_39
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -40
+			APR_svalue > -41
+		}
+		add_country_modifier = {
+			name = negative_APR_40
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -41
+			APR_svalue > -42
+		}
+		add_country_modifier = {
+			name = negative_APR_41
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -42
+			APR_svalue > -43
+		}
+		add_country_modifier = {
+			name = negative_APR_42
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -43
+			APR_svalue > -44
+		}
+		add_country_modifier = {
+			name = negative_APR_43
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -44
+			APR_svalue > -45
+		}
+		add_country_modifier = {
+			name = negative_APR_44
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -45
+			APR_svalue > -46
+		}
+		add_country_modifier = {
+			name = negative_APR_45
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -46
+			APR_svalue > -47
+		}
+		add_country_modifier = {
+			name = negative_APR_46
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -47
+			APR_svalue > -48
+		}
+		add_country_modifier = {
+			name = negative_APR_47
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -48
+			APR_svalue > -49
+		}
+		add_country_modifier = {
+			name = negative_APR_48
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -49
+			APR_svalue > -50
+		}
+		add_country_modifier = {
+			name = negative_APR_49
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+	else_if = {
+		limit = {
+			APR_svalue < -50
+		}
+		add_country_modifier = {
+			name = negative_APR_50
+			duration = 365 # Updated on yearly country pulse
+		}
+	}
+}

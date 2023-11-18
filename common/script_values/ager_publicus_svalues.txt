@@ -1,12 +1,27 @@
+APR_svalue = {
+	# Scope: country
+	# APR = Ager Publicus Ratio
+	value = var:ager_publicus
+	subtract = var:veteran_count
+}
+
+ager_publicus_pop_cap_bonus = {
+	# Scope: province
+	# Function: account for the habitability of the province by scaling pop cap
+	value = population_cap
+	multiply = 0.01
+}
+
 province_ager_publicus_svalue = {
 	# Scope: province
-	# Function:
+	# Function: get the amount contributed to total ager publicus by each province
 	value = 1
+	add = ager_publicus_pop_cap_bonus
 	if = {
 		limit = {
 			has_province_rank = settlement
 		}
-		add = 1
+		add = 0.9
 	}
 	if = {
 		limit = {
@@ -15,9 +30,9 @@ province_ager_publicus_svalue = {
 				has_building = latifundia_building
 			}
 		}
-		add = 1
+		add = 0.9
 	}
-	add = ager_publicus_civilization_bonus
+	# add = ager_publicus_civilization_bonus # Obsolete due to pop cap included
 
 	if = {
 		limit = {
@@ -37,10 +52,16 @@ province_ager_publicus_svalue = {
 			limit = {
 				pop_type = tribesmen
 			}
-			subtract = 0.1
+			subtract = 0.15
+		}
+		if = {
+			limit = {
+				pop_type = slaves
+			}
+			subtract = 0.005
 		}
 		else = {
-			subtract = 0.025
+			subtract = 0.03
 		}
 	}
 	subtract = ager_publicus_foreign_pops_malus
@@ -69,11 +90,11 @@ ager_publicus_country_svalue = {
 	}
 }
 
-veteran_growth_amount = {
+veteran_growth_svalue = {
 	# Scope: country
 	# Function: Set the number of veterans to spawn every year
 	value = manpower
-	divide = 10000 # 0.1 per 1,000
+	multiply = 0.25 # 25 per 100
 	add = veteran_cohorts_bonus
 }
 
@@ -97,4 +118,11 @@ veteran_10_percent_svalue = {
 	else = {
 		value = 0
 	}
+}
+
+veterans_negative_svalue = {
+	# Scope: country
+	# Function: Negative # of veterans to give maluses when retracting the law
+	value = var:veteran_count
+	multiply = -1
 }

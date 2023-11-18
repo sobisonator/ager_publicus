@@ -1,0 +1,16 @@
+yearly_country_pulse = {
+	on_actions = {
+		yearly_ager_publicus_pulse
+	}
+}
+
+yearly_ager_publicus_pulse = {
+	trigger = {
+		has_law = ager_publicus_enabled
+	}
+
+	effect = {
+		ager_publicus_update_variables = yes
+		ager_publicus_apply_modifier = yes
+	}
+}

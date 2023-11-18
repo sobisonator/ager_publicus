@@ -1,0 +1,42 @@
+ager_publicus_laws = {
+	potential = {
+		capital = {
+			civilization_value > 25
+		}
+	}
+	ager_publicus_disabled = {
+		modifier = {
+			# None
+		}
+		on_enact = {
+			if = {
+				limit = {
+					has_variable = veteran_count
+					has_variable = ager_publicus
+				}
+				add_stability = veterans_negative_svalue
+				add_tyranny = var:veteran_count
+				current_ruler = {
+					add_popularity = veterans_negative_svalue
+				}
+				remove_variable = veteran_count
+				remove_variable = ager_publicus
+			}
+		}
+	}
+	ager_publicus_enabled = {
+		modifier = {
+			# None
+		}
+		on_enact = {
+			set_variable = {
+				name = veteran_count
+				value = 0
+			}
+			set_variable = {
+				name = ager_publicus
+				value = 0
+			}
+		}
+	}
+}
